@@ -6,6 +6,10 @@ sudo add-apt-repository universe
 
 sudo apt-get install curl
 
+sudo apt-get install python3-distutils
+
+sudo apt-get install python3-apt
+
 # pip3
 sudo apt install python3
 curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
@@ -13,8 +17,10 @@ python3 get-pip.py --user
 
 # pip
 sudo apt install python2
-curl https://bootstrap.pypa.io/get-pip.py --output get-pip.py
+curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
 sudo python2 get-pip.py
+
+sudo apt install python3-pip
 
 sudo apt-get install vim
 
