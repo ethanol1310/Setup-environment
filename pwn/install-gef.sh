@@ -1,0 +1,1 @@
+sh -c "$(curl -fsSL http://gef.blah.cat/sh)"
