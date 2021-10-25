@@ -11,12 +11,12 @@ sudo apt-get install python3-distutils
 sudo apt-get install python3-apt
 
 # pip3
-sudo apt install python3
-curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
-python3 get-pip.py --user
+#sudo apt install python3
+#curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
+#python3 get-pip.py --user
 
 # pip
-sudo apt install python2
+#sudo apt install python2
 curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
 sudo python2 get-pip.py
 
@@ -31,6 +31,16 @@ sudo apt-get install build-essential
 sudo apt-get install gcc-multilib
 
 sudo apt -y install gcc-7 g++-7 gcc-8 g++-8 gcc-9 g++-9
+
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-7 7
+sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-7 7
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 8
+sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-8 8
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-9 9
+sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-9 9
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 1111
+sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.8 1111
+
 
 # sudo apt-get install gcc-6-multilib
 
