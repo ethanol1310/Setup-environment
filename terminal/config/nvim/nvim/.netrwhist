@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/ethanol/.config/nvim'
+let g:netrw_dirhist_2='/home/ethanol/Desktop/workspace/ZaloServer/zgddb-client/svn_ZiDB/ZiDB/bin'
+let g:netrw_dirhist_1='/home/ethanol/.config/ezsh'
